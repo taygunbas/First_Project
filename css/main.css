@@ -6,8 +6,6 @@ body {
     background-color: grey;
 }
 
-
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -39,8 +37,3 @@ body {
     flex: 25%;
   }
 
-/* @media (max-width: 800px) {
-    .flex-item-right, .flex-item-left {
-      flex: 100%;
-    }
-  } */
