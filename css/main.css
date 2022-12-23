@@ -1,23 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: grey;
-    padding-bottom: 50px;
 }
 
 
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
 
 .left_logo {
-    border: 1px solid red;
-    background-color: yellow;
-}
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 25%;
+  }
+
 .center_search {
-    border: 1px solid red;
-    background-color: yellow;
-}
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 25%;
+  }
+
 .center_location {
-    border: 1px solid red;
-    background-color: yellow;
-}
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 25%;
+  }
+
 .right_login {
-    border: 1px solid red;
-    background-color: yellow;
-}
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 25%;
+  }
+
+/* @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  } */
