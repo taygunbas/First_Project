@@ -1,0 +1,23 @@
+body {
+    background-color: grey;
+    padding-bottom: 50px;
+}
+
+
+
+.left_logo {
+    border: 1px solid red;
+    background-color: yellow;
+}
+.center_search {
+    border: 1px solid red;
+    background-color: yellow;
+}
+.center_location {
+    border: 1px solid red;
+    background-color: yellow;
+}
+.right_login {
+    border: 1px solid red;
+    background-color: yellow;
+}
